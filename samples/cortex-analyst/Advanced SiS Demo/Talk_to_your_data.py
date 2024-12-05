@@ -40,9 +40,8 @@ from utils.storage.saved_answers import save_analyst_answer
 # List of available semantic model paths in the format: <DATABASE>.<SCHEMA>.<STAGE>/<FILE-NAME>
 # Each path points to a YAML file defining a semantic model
 AVAILABLE_SEMANTIC_MODELS_PATHS = [
-    "CORTEX_ANALYST_DEMO.REVENUE_TIMESERIES.RAW_DATA/revenue_timeseries.yaml"
+    "CLINITEX_DATABASE.DBT_ANTOINE_BRONZE.SEMANTIC_MODEL_STAGE/clinitex_semantic_model.yaml"
 ]
-
 
 def reset_session_state():
     """Reset important session state elements for this page."""
